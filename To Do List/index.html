@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <div id="items"></div>
+    <template class="item-template">
+        <div class="item">
+            <input type="checkbox" class="item-completed">
+            <input type="text" class="item-description" placeholder="New Task...">
+        </div>
+    </template>
+    <div class="options">
+    <button id="add">Add Item</button>
+    <button id="clear">Clear Completed</button>
+    <button id="delete">Delete Item</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
