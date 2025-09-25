@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(39,28,243), #ec2f12);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 2em;
+    padding: 4em 3em;
+}
+
+.title{
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+hr{
+    width: 100%;
+    background-color: white;
+    height: 5px;
+    border-radius: 1em;
+    border: none;
+}
+
+.timer{
+    font-size: 10em;
+    font-weight: 700;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 2em;
+}
+
+button{
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    transform: translate3d(5px, -5px, -5px);
+}
+
+#start{
+    background-color: rgb(86,230,14);
+}
+
+#stop{
+    background-color: rgb(243,28,28);
+}
+
+#reset{
+    background-color: rgb(28, 134, 243);
+}
